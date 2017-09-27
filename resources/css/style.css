@@ -1,0 +1,84 @@
+header {
+  display: flex;
+  flex-wrap: wrap;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  height: 69px;
+  padding-left: 10px;
+  border-bottom: 1px solid seashell;
+  z-index: 2;
+}
+
+.logo {
+  height: 50px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+  padding-right: 10px;
+}
+
+nav span {
+  padding: 20px 10px;
+  display: inline-block;
+}
+
+main {
+  width: 1200px;
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  padding-top: 70px;
+  opacity: 0.9;
+  z-index: 1;
+  margin: auto;
+}
+
+#mission {
+  background-image: url(../media/img-mission-background.jpg);
+  width: 100%;
+  height: 700px;
+}
+
+#locations {
+  background-image: url(../media/img-locations-background.jpg);
+  width: 100%;
+  height: 500px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.locations {
+  display: flex;
+  flex-direction: row;
+}
+
+.location {
+  height: 300px;
+  width: 300px;
+}
+
+.gallery {
+  display: inline-flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.teapod {
+  display: flex;
+  flex-direction: column;
+}
+
+.teapod img {
+  height: 200px;
+  width: 300px;
+  padding: 20px 10px;
+}
