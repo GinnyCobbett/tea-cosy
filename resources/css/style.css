@@ -46,7 +46,7 @@ main {
 
 #locations {
   background-image: url(../media/img-locations-background.jpg);
-  width: 100%;
+
   height: 500px;
 }
 
@@ -71,6 +71,12 @@ main {
 
 .content.mission {
   background-color: black;
+}
+
+.content.tea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .locations {
