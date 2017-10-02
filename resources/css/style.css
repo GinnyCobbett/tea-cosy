@@ -16,6 +16,10 @@ header {
   height: 50px;
 }
 
+.logo img {
+  height: 50px;
+}
+
 nav {
   text-align: right;
   flex-grow: 1;
@@ -46,16 +50,11 @@ main {
 
 #locations {
   background-image: url(../media/img-locations-background.jpg);
-
   height: 500px;
 }
 
 #tea {
   margin: 50px 0;
-}
-
-#locations h2 {
-
 }
 
 .container {
